@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/fondo_lana"
+
+    tools:context=".MyActivity">
+
+    <Button
+        android:id="@+id/webView1"
+        android:layout_width="306dp"
+        android:layout_height="96dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="136dp"
+        android:background="@drawable/rayas"
+        android:textColor="#ff0c0c0c"
+        android:textSize="35dp"
+        android:text="Administración"
+        ></Button>
+
+    <Button
+        android:id="@+id/pagina2"
+        android:layout_width="306dp"
+        android:layout_height="96dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rayas"
+        android:text="Ir al sitio web"
+        android:textColor="#ff0c0202"
+        android:textSize="35dp"
+        ></Button>
+
+
+
+</LinearLayout>
